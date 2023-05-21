@@ -26,4 +26,4 @@ jobs:
 
       - name: Execute Python script
         run: |
-          python vaja/SA_Vaje/webhook.py
+          python webhook.py
