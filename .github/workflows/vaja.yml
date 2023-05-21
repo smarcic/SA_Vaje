@@ -23,3 +23,7 @@ jobs:
         run: |
           docker build -t samarcic/sa_vaje_marcic:index.html .
           docker push samarcic/sa_vaje_marcic:index.html
+
+      - name: Execute Python script
+        run: |
+          python vaja/SA_Vaje/webhook.py
